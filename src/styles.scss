@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/leaflet/dist/leaflet.css';
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+// Estilos para el contenedor del diálogo
+.mat-mdc-dialog-panel {
+    max-width: none !important; // Elimina cualquier límite de ancho
+    width: 85% !important; // Fija un ancho específico
+    height: 85% !important; // Fija un alto específico
+    padding: 0 !important; // Elimina el padding predeterminado
+}
